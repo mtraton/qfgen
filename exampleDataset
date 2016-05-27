@@ -1,0 +1,44 @@
+attribute(classroom_closet, [true, false]).
+attribute(classroom_closet_color, [brown]).
+attribute(classroom_color, [yellow]).
+attribute(classroom_color_intensity, [dark, unspecified]).
+attribute(classroom_computer, [true, false]).
+attribute(classroom_computer_color, [black, white]).
+attribute(classroom_computer_model, [hp, unspecified]).
+attribute(classroom_desk, [true, false]).
+attribute(classroom_desk_color, [brown, unspecified]).
+attribute(classroom_desk_color_intensity, [high, unspecified]).
+attribute(classroom_desk_model, [regular, unspecified]).
+attribute(classroom_door, [true, false]).
+attribute(classroom_door_color, [gray]).
+attribute(classroom_name, ["Laboratorium 316", unspecified]).
+attribute(classroom_projector, [true, false]).
+attribute(classroom_projector_color, [red, white]).
+attribute(classroom_size, [small]).
+attribute(classroom_tv, [true, false]).
+attribute(classroom_tv_color, [black]).
+attribute(classroom_tv_model, [samsung]).
+attribute(classroom_whiteboard, [true, false]).
+attribute(classroom_whiteboard_model, [blackboard, smartboard]).
+attribute(classroom_window, [true, false]).
+attribute(place, [classroom]).
+ 
+entry(data{classroom_window:false, id:lab316}).
+entry(data{classroom_closet:true, classroom_closet_color:brown, id:lab316}).
+entry(data{classroom_door:true, classroom_door_color:gray, id:lab316}).
+entry(data{classroom_projector:true, classroom_projector_color:white, id:lab316}).
+entry(data{classroom_whiteboard:true, classroom_whiteboard_model:smartboard, id:lab316}).
+entry(data{classroom_closet:true, classroom_closet_color:brown, id:lab318}).
+entry(data{classroom_door:true, classroom_door_color:gray, id:lab318}).
+entry(data{classroom_projector:true, classroom_projector_color:red, id:lab318}).
+entry(data{classroom_whiteboard:true, classroom_whiteboard_model:blackboard, id:lab318}).
+entry(data{classroom_whiteboard:true, classroom_whiteboard_model:smartboard, id:lab318}).
+entry(data{classroom_computer:true, classroom_computer_color:black, classroom_computer_model:hp, id:lab316}).
+entry(data{classroom_tv:true, classroom_tv_color:black, classroom_tv_model:samsung, id:lab316}).
+entry(data{classroom_computer:true, classroom_computer_color:black, classroom_computer_model:unspecified, id:lab318}).
+entry(data{classroom_computer:true, classroom_computer_color:white, classroom_computer_model:unspecified, id:lab318}).
+entry(data{classroom_tv:true, classroom_tv_color:black, classroom_tv_model:samsung, id:lab318}).
+entry(data{classroom_desk:true, classroom_desk_color:unspecified, classroom_desk_color_intensity:unspecified, classroom_desk_model:unspecified, id:lab316}).
+entry(data{classroom_desk:true, classroom_desk_color:brown, classroom_desk_color_intensity:high, classroom_desk_model:regular, id:lab318}).
+entry(data{classroom_color:yellow, classroom_color_intensity:unspecified, classroom_name:"Laboratorium 316", classroom_size:small, id:lab316, place:classroom}).
+entry(data{classroom_color:yellow, classroom_color_intensity:dark, classroom_name:unspecified, classroom_size:small, id:lab318, place:classroom}).
