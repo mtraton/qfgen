@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://student.agh.edu.pl/~zelazows/ont.owl" uri="archive/qfgen_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://student.agh.edu.pl/~zelazows/ont.owl" uri="archive/qfgen_ontology_akt.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://student.agh.edu.pl/~zelazows/ont.owl" uri="archive/test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="http://student.agh.edu.pl/~zelazows/ontonazwa" uri="archive/ontonazwa.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://www.semanticweb.org/rael/ontologies/2016/2/untitled-ontology-3" uri="archive/ont.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://www.semanticweb.org/rael/ontologies/2016/2/untitled-ontology-3" uri="archive/ONTO.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1464342786977" name="duplicate:http://www.semanticweb.org/rael/ontologies/2016/2/untitled-ontology-3" uri="archive/ontologia.owl"/>
+    </group>
+</catalog>
