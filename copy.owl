@@ -1,0 +1,546 @@
+@prefix : <http://www.semanticweb.org/qfgen#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/qfgen.owl> .
+
+<http://www.semanticweb.org/qfgen.owl> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/qfgen#daleko_od
+
+<http://www.semanticweb.org/qfgen#daleko_od> rdf:type owl:ObjectProperty ;
+                                             
+                                             rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                             
+                                             owl:inverseOf <http://www.semanticweb.org/qfgen#obok> ;
+                                             
+                                             rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                             
+                                             rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#jest_elementem
+
+<http://www.semanticweb.org/qfgen#jest_elementem> rdf:type owl:ObjectProperty ;
+                                                  
+                                                  owl:inverseOf <http://www.semanticweb.org/qfgen#składa_się> ;
+                                                  
+                                                  rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                                  
+                                                  rdfs:range <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#na_zewnątrz
+
+<http://www.semanticweb.org/qfgen#na_zewnątrz> rdf:type owl:ObjectProperty ;
+                                               
+                                               rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                               
+                                               owl:inverseOf <http://www.semanticweb.org/qfgen#w_środku> ;
+                                               
+                                               rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                               
+                                               rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> ,
+                                                          <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#nad
+
+<http://www.semanticweb.org/qfgen#nad> rdf:type owl:ObjectProperty ;
+                                       
+                                       rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#obok
+
+<http://www.semanticweb.org/qfgen#obok> rdf:type owl:ObjectProperty ;
+                                        
+                                        rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                        
+                                        rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                        
+                                        rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#opisuje
+
+<http://www.semanticweb.org/qfgen#opisuje> rdf:type owl:ObjectProperty ;
+                                           
+                                           rdfs:domain [ rdf:type owl:Restriction ;
+                                                         owl:onProperty owl:topDataProperty ;
+                                                         owl:someValuesFrom xsd:string
+                                                       ] ;
+                                           
+                                           rdfs:range [ rdf:type owl:Restriction ;
+                                                        owl:onProperty owl:topDataProperty ;
+                                                        owl:allValuesFrom xsd:string
+                                                      ] .
+
+
+
+###  http://www.semanticweb.org/qfgen#pod
+
+<http://www.semanticweb.org/qfgen#pod> rdf:type owl:ObjectProperty ;
+                                       
+                                       rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                       
+                                       owl:inverseOf owl:topObjectProperty ;
+                                       
+                                       rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                       
+                                       rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#polozenie
+
+<http://www.semanticweb.org/qfgen#polozenie> rdf:type owl:ObjectProperty .
+
+
+
+###  http://www.semanticweb.org/qfgen#składa_się
+
+<http://www.semanticweb.org/qfgen#składa_się> rdf:type owl:ObjectProperty ;
+                                              
+                                              rdfs:domain <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+                                              
+                                              rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#w_środku
+
+<http://www.semanticweb.org/qfgen#w_środku> rdf:type owl:ObjectProperty ;
+                                            
+                                            rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                            
+                                            rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                            
+                                            rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> ,
+                                                       <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/qfgen#Ilość
+
+<http://www.semanticweb.org/qfgen#Ilość> rdf:type owl:DatatypeProperty ;
+                                         
+                                         rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                         
+                                         rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#Intensywność
+
+<http://www.semanticweb.org/qfgen#Intensywność> rdf:type owl:DatatypeProperty ;
+                                                
+                                                rdfs:domain owl:Thing ;
+                                                
+                                                rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#Kolor
+
+<http://www.semanticweb.org/qfgen#Kolor> rdf:type owl:DatatypeProperty ;
+                                         
+                                         rdfs:domain owl:Thing ;
+                                         
+                                         rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#Model
+
+<http://www.semanticweb.org/qfgen#Model> rdf:type owl:DatatypeProperty ;
+                                         
+                                         rdfs:domain <http://www.semanticweb.org/qfgen#Urządzenie> ;
+                                         
+                                         rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#Nazwa
+
+<http://www.semanticweb.org/qfgen#Nazwa> rdf:type owl:DatatypeProperty ;
+                                         
+                                         rdfs:domain owl:Thing ;
+                                         
+                                         rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#Rozmiar
+
+<http://www.semanticweb.org/qfgen#Rozmiar> rdf:type owl:DatatypeProperty ;
+                                           
+                                           rdfs:domain owl:Thing ;
+                                           
+                                           rdfs:range xsd:string .
+
+
+
+###  http://www.semanticweb.org/qfgen#UID
+
+<http://www.semanticweb.org/qfgen#UID> rdf:type owl:DatatypeProperty ;
+                                       
+                                       rdfs:domain owl:Thing ;
+                                       
+                                       rdfs:range xsd:string .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/qfgen#Biurko
+
+<http://www.semanticweb.org/qfgen#Biurko> rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Drzwi
+
+<http://www.semanticweb.org/qfgen#Drzwi> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Element_architektoniczny
+
+<http://www.semanticweb.org/qfgen#Element_architektoniczny> rdf:type owl:Class ;
+                                                            
+                                                            rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Komputer
+
+<http://www.semanticweb.org/qfgen#Komputer> rdf:type owl:Class ;
+                                            
+                                            rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Krzesło
+
+<http://www.semanticweb.org/qfgen#Krzesło> rdf:type owl:Class ;
+                                           
+                                           rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Kwiat
+
+<http://www.semanticweb.org/qfgen#Kwiat> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Ozdoba> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Mebel
+
+<http://www.semanticweb.org/qfgen#Mebel> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Obiekt
+
+<http://www.semanticweb.org/qfgen#Obiekt> rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/qfgen#Okno
+
+<http://www.semanticweb.org/qfgen#Okno> rdf:type owl:Class ;
+                                        
+                                        rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Ozdoba
+
+<http://www.semanticweb.org/qfgen#Ozdoba> rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Plakat
+
+<http://www.semanticweb.org/qfgen#Plakat> rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Ozdoba> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Pomieszczenie
+
+<http://www.semanticweb.org/qfgen#Pomieszczenie> rdf:type owl:Class .
+
+
+
+###  http://www.semanticweb.org/qfgen#Projektor
+
+<http://www.semanticweb.org/qfgen#Projektor> rdf:type owl:Class ;
+                                             
+                                             rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Sufit
+
+<http://www.semanticweb.org/qfgen#Sufit> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Szafa
+
+<http://www.semanticweb.org/qfgen#Szafa> rdf:type owl:Class ;
+                                         
+                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Tablica
+
+<http://www.semanticweb.org/qfgen#Tablica> rdf:type owl:Class ;
+                                           
+                                           rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Telewizor
+
+<http://www.semanticweb.org/qfgen#Telewizor> rdf:type owl:Class ;
+                                             
+                                             rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Urządzenie
+
+<http://www.semanticweb.org/qfgen#Urządzenie> rdf:type owl:Class ;
+                                              
+                                              rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+
+
+
+###  http://www.semanticweb.org/qfgen#Ściana
+
+<http://www.semanticweb.org/qfgen#Ściana> rdf:type owl:Class ;
+                                          
+                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+
+
+
+
+
+#################################################################
+#
+#    Individuals
+#
+#################################################################
+
+
+###  http://www.semanticweb.org/qfgen#biurko_316
+
+<http://www.semanticweb.org/qfgen#biurko_316> rdf:type owl:NamedIndividual ,
+                                                       <http://www.semanticweb.org/qfgen#Biurko> ;
+                                              
+                                              <http://www.semanticweb.org/qfgen#UID> "lab316_desk" .
+
+
+
+###  http://www.semanticweb.org/qfgen#biurko_318
+
+<http://www.semanticweb.org/qfgen#biurko_318> rdf:type owl:NamedIndividual ,
+                                                       <http://www.semanticweb.org/qfgen#Biurko> ;
+                                              
+                                              <http://www.semanticweb.org/qfgen#Kolor> "brązowy" ;
+                                              
+                                              <http://www.semanticweb.org/qfgen#Model> "zwykły" .
+
+
+
+###  http://www.semanticweb.org/qfgen#drzwi_316
+
+<http://www.semanticweb.org/qfgen#drzwi_316> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Drzwi> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "szary" .
+
+
+
+###  http://www.semanticweb.org/qfgen#drzwi_318
+
+<http://www.semanticweb.org/qfgen#drzwi_318> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Drzwi> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "szary" .
+
+
+
+###  http://www.semanticweb.org/qfgen#lab316
+
+<http://www.semanticweb.org/qfgen#lab316> rdf:type owl:NamedIndividual ,
+                                                   <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#składa_się> <http://www.semanticweb.org/qfgen#lab316_tv> ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#Kolor> "żółty" ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#Nazwa> "Laboratorium 316" ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#Rozmiar> "mały" ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#UID> "lab316" .
+
+
+
+###  http://www.semanticweb.org/qfgen#lab316_tv
+
+<http://www.semanticweb.org/qfgen#lab316_tv> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Telewizor> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "czarny" ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Model> "Samsung" .
+
+
+
+###  http://www.semanticweb.org/qfgen#lab318
+
+<http://www.semanticweb.org/qfgen#lab318> rdf:type owl:NamedIndividual ,
+                                                   <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#Kolor> "żółty" ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#Rozmiar> "mały" ;
+                                          
+                                          <http://www.semanticweb.org/qfgen#UID> "lab318" .
+
+
+
+###  http://www.semanticweb.org/qfgen#lab318_tv
+
+<http://www.semanticweb.org/qfgen#lab318_tv> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Telewizor> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "czarny" ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Model> "Samsung" .
+
+
+
+###  http://www.semanticweb.org/qfgen#projektor316
+
+<http://www.semanticweb.org/qfgen#projektor316> rdf:type owl:NamedIndividual ,
+                                                         <http://www.semanticweb.org/qfgen#Projektor> ;
+                                                
+                                                <http://www.semanticweb.org/qfgen#Kolor> "biały" .
+
+
+
+###  http://www.semanticweb.org/qfgen#projektor318
+
+<http://www.semanticweb.org/qfgen#projektor318> rdf:type owl:NamedIndividual ,
+                                                         <http://www.semanticweb.org/qfgen#Projektor> ;
+                                                
+                                                <http://www.semanticweb.org/qfgen#Kolor> "czerwony" .
+
+
+
+###  http://www.semanticweb.org/qfgen#szafa_316
+
+<http://www.semanticweb.org/qfgen#szafa_316> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Szafa> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "brązowy" .
+
+
+
+###  http://www.semanticweb.org/qfgen#szafa_318
+
+<http://www.semanticweb.org/qfgen#szafa_318> rdf:type owl:NamedIndividual ,
+                                                      <http://www.semanticweb.org/qfgen#Szafa> ;
+                                             
+                                             <http://www.semanticweb.org/qfgen#Kolor> "brązowy" .
+
+
+
+###  http://www.semanticweb.org/qfgen#tablica316
+
+<http://www.semanticweb.org/qfgen#tablica316> rdf:type owl:NamedIndividual ,
+                                                       <http://www.semanticweb.org/qfgen#Tablica> ;
+                                              
+                                              <http://www.semanticweb.org/qfgen#Model> "smartboard" .
+
+
+
+###  http://www.semanticweb.org/qfgen#tablica318_black
+
+<http://www.semanticweb.org/qfgen#tablica318_black> rdf:type owl:NamedIndividual ,
+                                                             <http://www.semanticweb.org/qfgen#Tablica> ;
+                                                    
+                                                    <http://www.semanticweb.org/qfgen#Model> "blackboard" .
+
+
+
+###  http://www.semanticweb.org/qfgen#tablica318_smart
+
+<http://www.semanticweb.org/qfgen#tablica318_smart> rdf:type owl:NamedIndividual ,
+                                                             <http://www.semanticweb.org/qfgen#Tablica> ;
+                                                    
+                                                    <http://www.semanticweb.org/qfgen#Model> "smartboard" .
+
+### związek między intensywnością a kolorem wyrażony 													
+													
+:Intensywność :opisuje :Kolor .
+
+
+###  Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi
+
