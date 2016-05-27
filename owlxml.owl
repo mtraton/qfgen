@@ -1,0 +1,631 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/qfgen.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/qfgen.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/qfgen#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class abbreviatedIRI=":Telewizor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":drzwi_316"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":biurko_316"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Plakat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":jest_elementem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":szafa_318"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Ściana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":lab318_tv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":tablica318_smart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":opisuje"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Sufit"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Krzesło"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":UID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":daleko_od"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":pod"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Tablica"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Mebel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Drzwi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":projektor316"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Okno"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Kwiat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":biurko_318"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Kolor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":drzwi_318"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":szafa_316"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Szafa"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Ozdoba"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Projektor"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Biurko"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":lab316_tv"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Nazwa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":nad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Ilość"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":tablica318_black"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":tablica316"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Rozmiar"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":obok"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Komputer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI=":Intensywność"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":projektor318"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":Intensywność"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Biurko"/>
+        <Class abbreviatedIRI=":Mebel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Drzwi"/>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Komputer"/>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Krzesło"/>
+        <Class abbreviatedIRI=":Mebel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Kwiat"/>
+        <Class abbreviatedIRI=":Ozdoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Mebel"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Okno"/>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Ozdoba"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Plakat"/>
+        <Class abbreviatedIRI=":Ozdoba"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Projektor"/>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Sufit"/>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Szafa"/>
+        <Class abbreviatedIRI=":Mebel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Tablica"/>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Telewizor"/>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Urządzenie"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI=":Ściana"/>
+        <Class abbreviatedIRI=":Element_architektoniczny"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Biurko"/>
+        <NamedIndividual abbreviatedIRI=":biurko_316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Biurko"/>
+        <NamedIndividual abbreviatedIRI=":biurko_318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Drzwi"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Drzwi"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Telewizor"/>
+        <NamedIndividual abbreviatedIRI=":lab316_tv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Telewizor"/>
+        <NamedIndividual abbreviatedIRI=":lab318_tv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Projektor"/>
+        <NamedIndividual abbreviatedIRI=":projektor316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Projektor"/>
+        <NamedIndividual abbreviatedIRI=":projektor318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Szafa"/>
+        <NamedIndividual abbreviatedIRI=":szafa_316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Szafa"/>
+        <NamedIndividual abbreviatedIRI=":szafa_318"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Tablica"/>
+        <NamedIndividual abbreviatedIRI=":tablica316"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Tablica"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_black"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI=":Tablica"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_smart"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":opisuje"/>
+        <NamedIndividual abbreviatedIRI=":Intensywność"/>
+        <NamedIndividual abbreviatedIRI=":Kolor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":biurko_316"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_316"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":lab316_tv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":projektor316"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":szafa_316"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <NamedIndividual abbreviatedIRI=":tablica316"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":UID"/>
+        <NamedIndividual abbreviatedIRI=":biurko_316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lab316_desk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":biurko_318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">brązowy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":biurko_318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">zwykły</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">szary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">szary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">żółty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Nazwa"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Laboratorium 316</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Rozmiar"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mały</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":UID"/>
+        <NamedIndividual abbreviatedIRI=":lab316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lab316</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":lab316_tv"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">czarny</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":lab316_tv"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Samsung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">żółty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Rozmiar"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mały</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":UID"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lab318</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":lab318_tv"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">czarny</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":lab318_tv"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Samsung</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":projektor316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">biały</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":projektor318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">czerwony</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":szafa_316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">brązowy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <NamedIndividual abbreviatedIRI=":szafa_318"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">brązowy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":tablica316"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">smartboard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_black"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">blackboard</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_smart"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">smartboard</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":daleko_od"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":nad"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":obok"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":pod"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+        <ObjectProperty abbreviatedIRI=":polozenie"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI=":daleko_od"/>
+        <ObjectProperty abbreviatedIRI=":obok"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI=":jest_elementem"/>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty abbreviatedIRI=":pod"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":daleko_od"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":jest_elementem"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":obok"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":opisuje"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":pod"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":daleko_od"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":jest_elementem"/>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":na_zewnątrz"/>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":obok"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":opisuje"/>
+        <DataAllValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataAllValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":pod"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI=":w_środku"/>
+        <Class abbreviatedIRI=":Pomieszczenie"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Ilość"/>
+        <Class abbreviatedIRI=":Obiekt"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Intensywność"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <Class abbreviatedIRI=":Urządzenie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Nazwa"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":Rozmiar"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI=":UID"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Ilość"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Intensywność"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Kolor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Model"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Nazwa"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":Rozmiar"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI=":UID"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
