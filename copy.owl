@@ -1,12 +1,12 @@
-@prefix : <http://www.semanticweb.org/qfgen#> .
+@prefix : <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/qfgen.owl> .
+@base <	https://raw.githubusercontent.com/mtraton/qfgen/master/copy.owl> .
 
-<http://www.semanticweb.org/qfgen.owl> rdf:type owl:Ontology .
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy.owl> rdf:type owl:Ontology .
 
 
 #################################################################
@@ -16,70 +16,70 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/qfgen#daleko_od
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#daleko_od
 
-<http://www.semanticweb.org/qfgen#daleko_od> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#daleko_od> rdf:type owl:ObjectProperty ;
                                              
-                                             rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                             rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> ;
                                              
-                                             owl:inverseOf <http://www.semanticweb.org/qfgen#obok> ;
+                                             owl:inverseOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#obok> ;
                                              
-                                             rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                             rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                              
-                                             rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+                                             rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#jest_elementem
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#jest_elementem
 
-<http://www.semanticweb.org/qfgen#jest_elementem> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#jest_elementem> rdf:type owl:ObjectProperty ;
                                                   
-                                                  owl:inverseOf <http://www.semanticweb.org/qfgen#składa_się> ;
+                                                  owl:inverseOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#składa_się> ;
                                                   
-                                                  rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                                  rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                                   
-                                                  rdfs:range <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+                                                  rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#na_zewnątrz
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#na_zewnątrz
 
-<http://www.semanticweb.org/qfgen#na_zewnątrz> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#na_zewnątrz> rdf:type owl:ObjectProperty ;
                                                
-                                               rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                               rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> ;
                                                
-                                               owl:inverseOf <http://www.semanticweb.org/qfgen#w_środku> ;
+                                               owl:inverseOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#w_środku> ;
                                                
-                                               rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                               rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                                
-                                               rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> ,
-                                                          <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+                                               rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ,
+                                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#nad
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#nad
 
-<http://www.semanticweb.org/qfgen#nad> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#nad> rdf:type owl:ObjectProperty ;
                                        
-                                       rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> .
+                                       rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#obok
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#obok
 
-<http://www.semanticweb.org/qfgen#obok> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#obok> rdf:type owl:ObjectProperty ;
                                         
-                                        rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                        rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> ;
                                         
-                                        rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                        rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                         
-                                        rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+                                        rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#opisuje
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#opisuje
 
-<http://www.semanticweb.org/qfgen#opisuje> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#opisuje> rdf:type owl:ObjectProperty ;
                                            
                                            rdfs:domain [ rdf:type owl:Restriction ;
                                                          owl:onProperty owl:topDataProperty ;
@@ -93,46 +93,46 @@
 
 
 
-###  http://www.semanticweb.org/qfgen#pod
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#pod
 
-<http://www.semanticweb.org/qfgen#pod> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#pod> rdf:type owl:ObjectProperty ;
                                        
-                                       rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                       rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> ;
                                        
                                        owl:inverseOf owl:topObjectProperty ;
                                        
-                                       rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                       rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                        
-                                       rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+                                       rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#polozenie
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie
 
-<http://www.semanticweb.org/qfgen#polozenie> rdf:type owl:ObjectProperty .
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> rdf:type owl:ObjectProperty .
 
 
 
-###  http://www.semanticweb.org/qfgen#składa_się
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#składa_się
 
-<http://www.semanticweb.org/qfgen#składa_się> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#składa_się> rdf:type owl:ObjectProperty ;
                                               
-                                              rdfs:domain <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+                                              rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> ;
                                               
-                                              rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> .
+                                              rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#w_środku
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#w_środku
 
-<http://www.semanticweb.org/qfgen#w_środku> rdf:type owl:ObjectProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#w_środku> rdf:type owl:ObjectProperty ;
                                             
-                                            rdfs:subPropertyOf <http://www.semanticweb.org/qfgen#polozenie> ;
+                                            rdfs:subPropertyOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#polozenie> ;
                                             
-                                            rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                            rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                             
-                                            rdfs:range <http://www.semanticweb.org/qfgen#Obiekt> ,
-                                                       <http://www.semanticweb.org/qfgen#Pomieszczenie> .
+                                            rdfs:range <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ,
+                                                       <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> .
 
 
 
@@ -150,19 +150,19 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/qfgen#Ilość
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ilość
 
-<http://www.semanticweb.org/qfgen#Ilość> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ilość> rdf:type owl:DatatypeProperty ;
                                          
-                                         rdfs:domain <http://www.semanticweb.org/qfgen#Obiekt> ;
+                                         rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> ;
                                          
                                          rdfs:range xsd:string .
 
 
 
-###  http://www.semanticweb.org/qfgen#Intensywność
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Intensywność
 
-<http://www.semanticweb.org/qfgen#Intensywność> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Intensywność> rdf:type owl:DatatypeProperty ;
                                                 
                                                 rdfs:domain owl:Thing ;
                                                 
@@ -170,9 +170,9 @@
 
 
 
-###  http://www.semanticweb.org/qfgen#Kolor
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor
 
-<http://www.semanticweb.org/qfgen#Kolor> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> rdf:type owl:DatatypeProperty ;
                                          
                                          rdfs:domain owl:Thing ;
                                          
@@ -180,19 +180,19 @@
 
 
 
-###  http://www.semanticweb.org/qfgen#Model
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model
 
-<http://www.semanticweb.org/qfgen#Model> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> rdf:type owl:DatatypeProperty ;
                                          
-                                         rdfs:domain <http://www.semanticweb.org/qfgen#Urządzenie> ;
+                                         rdfs:domain <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> ;
                                          
                                          rdfs:range xsd:string .
 
 
 
-###  http://www.semanticweb.org/qfgen#Nazwa
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Nazwa
 
-<http://www.semanticweb.org/qfgen#Nazwa> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Nazwa> rdf:type owl:DatatypeProperty ;
                                          
                                          rdfs:domain owl:Thing ;
                                          
@@ -200,9 +200,9 @@
 
 
 
-###  http://www.semanticweb.org/qfgen#Rozmiar
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Rozmiar
 
-<http://www.semanticweb.org/qfgen#Rozmiar> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Rozmiar> rdf:type owl:DatatypeProperty ;
                                            
                                            rdfs:domain owl:Thing ;
                                            
@@ -210,9 +210,9 @@
 
 
 
-###  http://www.semanticweb.org/qfgen#UID
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#UID
 
-<http://www.semanticweb.org/qfgen#UID> rdf:type owl:DatatypeProperty ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#UID> rdf:type owl:DatatypeProperty ;
                                        
                                        rdfs:domain owl:Thing ;
                                        
@@ -229,151 +229,151 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/qfgen#Biurko
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Biurko
 
-<http://www.semanticweb.org/qfgen#Biurko> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Biurko> rdf:type owl:Class ;
                                           
-                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+                                          rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Mebel> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Drzwi
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Drzwi
 
-<http://www.semanticweb.org/qfgen#Drzwi> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Drzwi> rdf:type owl:Class ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+                                         rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Element_architektoniczny
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny
 
-<http://www.semanticweb.org/qfgen#Element_architektoniczny> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny> rdf:type owl:Class ;
                                                             
-                                                            rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+                                                            rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Komputer
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Komputer
 
-<http://www.semanticweb.org/qfgen#Komputer> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Komputer> rdf:type owl:Class ;
                                             
-                                            rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+                                            rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Krzesło
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Krzesło
 
-<http://www.semanticweb.org/qfgen#Krzesło> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Krzesło> rdf:type owl:Class ;
                                            
-                                           rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+                                           rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Mebel> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Kwiat
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kwiat
 
-<http://www.semanticweb.org/qfgen#Kwiat> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kwiat> rdf:type owl:Class ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Ozdoba> .
+                                         rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ozdoba> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Mebel
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Mebel
 
-<http://www.semanticweb.org/qfgen#Mebel> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Mebel> rdf:type owl:Class ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+                                         rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Obiekt
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt
 
-<http://www.semanticweb.org/qfgen#Obiekt> rdf:type owl:Class .
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/qfgen#Okno
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Okno
 
-<http://www.semanticweb.org/qfgen#Okno> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Okno> rdf:type owl:Class ;
                                         
-                                        rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+                                        rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Ozdoba
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ozdoba
 
-<http://www.semanticweb.org/qfgen#Ozdoba> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ozdoba> rdf:type owl:Class ;
                                           
-                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+                                          rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Plakat
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Plakat
 
-<http://www.semanticweb.org/qfgen#Plakat> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Plakat> rdf:type owl:Class ;
                                           
-                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Ozdoba> .
+                                          rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ozdoba> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Pomieszczenie
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie
 
-<http://www.semanticweb.org/qfgen#Pomieszczenie> rdf:type owl:Class .
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> rdf:type owl:Class .
 
 
 
-###  http://www.semanticweb.org/qfgen#Projektor
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Projektor
 
-<http://www.semanticweb.org/qfgen#Projektor> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Projektor> rdf:type owl:Class ;
                                              
-                                             rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+                                             rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Sufit
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Sufit
 
-<http://www.semanticweb.org/qfgen#Sufit> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Sufit> rdf:type owl:Class ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+                                         rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Szafa
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Szafa
 
-<http://www.semanticweb.org/qfgen#Szafa> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Szafa> rdf:type owl:Class ;
                                          
-                                         rdfs:subClassOf <http://www.semanticweb.org/qfgen#Mebel> .
+                                         rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Mebel> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Tablica
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Tablica
 
-<http://www.semanticweb.org/qfgen#Tablica> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Tablica> rdf:type owl:Class ;
                                            
-                                           rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+                                           rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Telewizor
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Telewizor
 
-<http://www.semanticweb.org/qfgen#Telewizor> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Telewizor> rdf:type owl:Class ;
                                              
-                                             rdfs:subClassOf <http://www.semanticweb.org/qfgen#Urządzenie> .
+                                             rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Urządzenie
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie
 
-<http://www.semanticweb.org/qfgen#Urządzenie> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Urządzenie> rdf:type owl:Class ;
                                               
-                                              rdfs:subClassOf <http://www.semanticweb.org/qfgen#Obiekt> .
+                                              rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Obiekt> .
 
 
 
-###  http://www.semanticweb.org/qfgen#Ściana
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ściana
 
-<http://www.semanticweb.org/qfgen#Ściana> rdf:type owl:Class ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Ściana> rdf:type owl:Class ;
                                           
-                                          rdfs:subClassOf <http://www.semanticweb.org/qfgen#Element_architektoniczny> .
+                                          rdfs:subClassOf <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Element_architektoniczny> .
 
 
 
@@ -386,156 +386,156 @@
 #################################################################
 
 
-###  http://www.semanticweb.org/qfgen#biurko_316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#biurko_316
 
-<http://www.semanticweb.org/qfgen#biurko_316> rdf:type owl:NamedIndividual ,
-                                                       <http://www.semanticweb.org/qfgen#Biurko> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#biurko_316> rdf:type owl:NamedIndividual ,
+                                                       <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Biurko> ;
                                               
-                                              <http://www.semanticweb.org/qfgen#UID> "lab316_desk" .
+                                              <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#UID> "lab316_desk" .
 
 
 
-###  http://www.semanticweb.org/qfgen#biurko_318
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#biurko_318
 
-<http://www.semanticweb.org/qfgen#biurko_318> rdf:type owl:NamedIndividual ,
-                                                       <http://www.semanticweb.org/qfgen#Biurko> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#biurko_318> rdf:type owl:NamedIndividual ,
+                                                       <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Biurko> ;
                                               
-                                              <http://www.semanticweb.org/qfgen#Kolor> "brązowy" ;
+                                              <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "brązowy" ;
                                               
-                                              <http://www.semanticweb.org/qfgen#Model> "zwykły" .
+                                              <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "zwykły" .
 
 
 
-###  http://www.semanticweb.org/qfgen#drzwi_316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#drzwi_316
 
-<http://www.semanticweb.org/qfgen#drzwi_316> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Drzwi> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#drzwi_316> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Drzwi> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "szary" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "szary" .
 
 
 
-###  http://www.semanticweb.org/qfgen#drzwi_318
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#drzwi_318
 
-<http://www.semanticweb.org/qfgen#drzwi_318> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Drzwi> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#drzwi_318> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Drzwi> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "szary" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "szary" .
 
 
 
-###  http://www.semanticweb.org/qfgen#lab316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab316
 
-<http://www.semanticweb.org/qfgen#lab316> rdf:type owl:NamedIndividual ,
-                                                   <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab316> rdf:type owl:NamedIndividual ,
+                                                   <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> ;
                                           
-                                          <http://www.semanticweb.org/qfgen#składa_się> <http://www.semanticweb.org/qfgen#lab316_tv> ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#składa_się> <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab316_tv> ;
                                           
-                                          <http://www.semanticweb.org/qfgen#Kolor> "żółty" ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "żółty" ;
                                           
-                                          <http://www.semanticweb.org/qfgen#Nazwa> "Laboratorium 316" ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Nazwa> "Laboratorium 316" ;
                                           
-                                          <http://www.semanticweb.org/qfgen#Rozmiar> "mały" ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Rozmiar> "mały" ;
                                           
-                                          <http://www.semanticweb.org/qfgen#UID> "lab316" .
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#UID> "lab316" .
 
 
 
-###  http://www.semanticweb.org/qfgen#lab316_tv
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab316_tv
 
-<http://www.semanticweb.org/qfgen#lab316_tv> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Telewizor> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab316_tv> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Telewizor> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "czarny" ;
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "czarny" ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Model> "Samsung" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "Samsung" .
 
 
 
-###  http://www.semanticweb.org/qfgen#lab318
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab318
 
-<http://www.semanticweb.org/qfgen#lab318> rdf:type owl:NamedIndividual ,
-                                                   <http://www.semanticweb.org/qfgen#Pomieszczenie> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab318> rdf:type owl:NamedIndividual ,
+                                                   <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Pomieszczenie> ;
                                           
-                                          <http://www.semanticweb.org/qfgen#Kolor> "żółty" ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "żółty" ;
                                           
-                                          <http://www.semanticweb.org/qfgen#Rozmiar> "mały" ;
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Rozmiar> "mały" ;
                                           
-                                          <http://www.semanticweb.org/qfgen#UID> "lab318" .
+                                          <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#UID> "lab318" .
 
 
 
-###  http://www.semanticweb.org/qfgen#lab318_tv
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab318_tv
 
-<http://www.semanticweb.org/qfgen#lab318_tv> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Telewizor> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#lab318_tv> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Telewizor> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "czarny" ;
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "czarny" ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Model> "Samsung" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "Samsung" .
 
 
 
-###  http://www.semanticweb.org/qfgen#projektor316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#projektor316
 
-<http://www.semanticweb.org/qfgen#projektor316> rdf:type owl:NamedIndividual ,
-                                                         <http://www.semanticweb.org/qfgen#Projektor> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#projektor316> rdf:type owl:NamedIndividual ,
+                                                         <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Projektor> ;
                                                 
-                                                <http://www.semanticweb.org/qfgen#Kolor> "biały" .
+                                                <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "biały" .
 
 
 
-###  http://www.semanticweb.org/qfgen#projektor318
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#projektor318
 
-<http://www.semanticweb.org/qfgen#projektor318> rdf:type owl:NamedIndividual ,
-                                                         <http://www.semanticweb.org/qfgen#Projektor> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#projektor318> rdf:type owl:NamedIndividual ,
+                                                         <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Projektor> ;
                                                 
-                                                <http://www.semanticweb.org/qfgen#Kolor> "czerwony" .
+                                                <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "czerwony" .
 
 
 
-###  http://www.semanticweb.org/qfgen#szafa_316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#szafa_316
 
-<http://www.semanticweb.org/qfgen#szafa_316> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Szafa> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#szafa_316> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Szafa> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "brązowy" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "brązowy" .
 
 
 
-###  http://www.semanticweb.org/qfgen#szafa_318
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#szafa_318
 
-<http://www.semanticweb.org/qfgen#szafa_318> rdf:type owl:NamedIndividual ,
-                                                      <http://www.semanticweb.org/qfgen#Szafa> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#szafa_318> rdf:type owl:NamedIndividual ,
+                                                      <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Szafa> ;
                                              
-                                             <http://www.semanticweb.org/qfgen#Kolor> "brązowy" .
+                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Kolor> "brązowy" .
 
 
 
-###  http://www.semanticweb.org/qfgen#tablica316
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica316
 
-<http://www.semanticweb.org/qfgen#tablica316> rdf:type owl:NamedIndividual ,
-                                                       <http://www.semanticweb.org/qfgen#Tablica> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica316> rdf:type owl:NamedIndividual ,
+                                                       <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Tablica> ;
                                               
-                                              <http://www.semanticweb.org/qfgen#Model> "smartboard" .
+                                              <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "smartboard" .
 
 
 
-###  http://www.semanticweb.org/qfgen#tablica318_black
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica318_black
 
-<http://www.semanticweb.org/qfgen#tablica318_black> rdf:type owl:NamedIndividual ,
-                                                             <http://www.semanticweb.org/qfgen#Tablica> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica318_black> rdf:type owl:NamedIndividual ,
+                                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Tablica> ;
                                                     
-                                                    <http://www.semanticweb.org/qfgen#Model> "blackboard" .
+                                                    <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "blackboard" .
 
 
 
-###  http://www.semanticweb.org/qfgen#tablica318_smart
+###  https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica318_smart
 
-<http://www.semanticweb.org/qfgen#tablica318_smart> rdf:type owl:NamedIndividual ,
-                                                             <http://www.semanticweb.org/qfgen#Tablica> ;
+<https://raw.githubusercontent.com/mtraton/qfgen/master/copy#tablica318_smart> rdf:type owl:NamedIndividual ,
+                                                             <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Tablica> ;
                                                     
-                                                    <http://www.semanticweb.org/qfgen#Model> "smartboard" .
+                                                    <https://raw.githubusercontent.com/mtraton/qfgen/master/copy#Model> "smartboard" .
 
 ### związek między intensywnością a kolorem wyrażony 													
 													
