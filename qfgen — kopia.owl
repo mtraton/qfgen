@@ -1,9 +1,9 @@
-@prefix : <http://www.semanticweb.org/qfgen#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.semanticweb.org/qfgen#> .
 
 <http://www.semanticweb.org/qfgen.owl> a owl:Ontology .
 # 
@@ -302,7 +302,6 @@ _:genid2 a owl:Restriction ;
 # http://www.semanticweb.org/qfgen#lab318
 
 :lab318 a owl:NamedIndividual , :Pomieszczenie ;
-	:składa_się :biurko_318 , :drzwi_318 , :lab318_tv , :projektor318 , :szafa_318 , :tablica318_black , :tablica318_smart ;
 	:Kolor "żółty" ;
 	:Rozmiar "mały" ;
 	:UID "lab318" .
