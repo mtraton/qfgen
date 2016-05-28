@@ -461,6 +461,13 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#lab318">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Pomieszczenie"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#biurko_318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#drzwi_318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#lab318_tv"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#projektor318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#szafa_318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica318_black"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica318_smart"/>
         <Kolor>żółty</Kolor>
         <Rozmiar>mały</Rozmiar>
         <UID>lab318</UID>
