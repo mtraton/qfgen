@@ -435,24 +435,15 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Pomieszczenie"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#biurko_316"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#drzwi_316"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#lab316_tv"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#projektor316"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#projektor_316"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#szafa_316"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica316"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica_316"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tv_316"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen.owl#komputer_316"/>
         <Kolor>żółty</Kolor>
         <Nazwa>Laboratorium 316</Nazwa>
         <Rozmiar>mały</Rozmiar>
         <UID>lab316</UID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/qfgen#lab316_tv -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#lab316_tv">
-        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Telewizor"/>
-        <Kolor>czarny</Kolor>
-        <Model>Samsung</Model>
     </owl:NamedIndividual>
     
 
@@ -463,11 +454,14 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Pomieszczenie"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#biurko_318"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#drzwi_318"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#lab318_tv"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#projektor318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#projektor_318"/>
         <składa_się rdf:resource="http://www.semanticweb.org/qfgen#szafa_318"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica318_black"/>
-        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica318_smart"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica_318_1"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tablica_318_2"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen#tv_318"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen.owl#komputer_318_1"/>
+        <składa_się rdf:resource="http://www.semanticweb.org/qfgen.owl#komputer_318_2"/>
+        <Intensywność>ciemny</Intensywność>
         <Kolor>żółty</Kolor>
         <Rozmiar>mały</Rozmiar>
         <UID>lab318</UID>
@@ -475,28 +469,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/qfgen#lab318_tv -->
+    <!-- http://www.semanticweb.org/qfgen#projektor_316 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#lab318_tv">
-        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Telewizor"/>
-        <Kolor>czarny</Kolor>
-        <Model>Samsung</Model>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/qfgen#projektor316 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#projektor316">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#projektor_316">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Projektor"/>
         <Kolor>biały</Kolor>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/qfgen#projektor318 -->
+    <!-- http://www.semanticweb.org/qfgen#projektor_318 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#projektor318">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#projektor_318">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Projektor"/>
         <Kolor>czerwony</Kolor>
     </owl:NamedIndividual>
@@ -521,29 +505,77 @@
     
 
 
-    <!-- http://www.semanticweb.org/qfgen#tablica316 -->
+    <!-- http://www.semanticweb.org/qfgen#tablica_316 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica316">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica_316">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Tablica"/>
         <Model>smartboard</Model>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/qfgen#tablica318_black -->
+    <!-- http://www.semanticweb.org/qfgen#tablica_318_1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica318_black">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica_318_1">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Tablica"/>
         <Model>blackboard</Model>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/qfgen#tablica318_smart -->
+    <!-- http://www.semanticweb.org/qfgen#tablica_318_2 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica318_smart">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tablica_318_2">
         <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Tablica"/>
         <Model>smartboard</Model>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/qfgen#tv_316 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tv_316">
+        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Telewizor"/>
+        <Kolor>czarny</Kolor>
+        <Model>Samsung</Model>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/qfgen#tv_318 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen#tv_318">
+        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Telewizor"/>
+        <Kolor>czarny</Kolor>
+        <Model>Samsung</Model>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/qfgen.owl#komputer_316 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen.owl#komputer_316">
+        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Komputer"/>
+        <Kolor>czarny</Kolor>
+        <Model>hp</Model>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/qfgen.owl#komputer_318_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen.owl#komputer_318_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Komputer"/>
+        <Kolor>czarny</Kolor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/qfgen.owl#komputer_318_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/qfgen.owl#komputer_318_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/qfgen#Komputer"/>
+        <Kolor>biały</Kolor>
     </owl:NamedIndividual>
 </rdf:RDF>
 
