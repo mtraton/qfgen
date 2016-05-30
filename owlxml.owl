@@ -334,11 +334,41 @@
         <NamedIndividual abbreviatedIRI=":lab316"/>
         <NamedIndividual abbreviatedIRI=":tablica316"/>
     </ObjectPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI=":UID"/>
-        <NamedIndividual abbreviatedIRI=":biurko_316"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">lab316_desk</Literal>
-    </DataPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":biurko_318"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":drzwi_318"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":lab318_tv"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":projektor318"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":szafa_318"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_black"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty abbreviatedIRI=":składa_się"/>
+        <NamedIndividual abbreviatedIRI=":lab318"/>
+        <NamedIndividual abbreviatedIRI=":tablica318_smart"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty abbreviatedIRI=":Kolor"/>
         <NamedIndividual abbreviatedIRI=":biurko_318"/>
